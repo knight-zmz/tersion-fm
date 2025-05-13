@@ -1,0 +1,91 @@
+2025-05-12 20:42:46,606 - root - INFO - 配置: {'EXPERIMENT_DIR': 'output\\20250512_204236', 'OUTPUT_DIR': './output', 'DATA_DIR': './datasets', 'BATCH_SIZE': 8, 'NUM_EPOCHS': 1, 'LEARNING_RATE': 0.0001, 'DEVICE': 'cuda'}
+2025-05-12 20:42:47,815 - root - INFO - 使用设备: cuda
+2025-05-12 20:42:47,815 - root - INFO - 加载RNA-FM模型...
+2025-05-12 20:42:50,575 - root - INFO - RNA-FM模型加载完成
+2025-05-12 20:42:50,575 - root - INFO - 创建数据集，从目录: ./datasets
+2025-05-12 20:42:50,576 - data.dataset - INFO - 找到1个pkl文件
+2025-05-12 20:42:50,576 - data.dataset - INFO - 从缓存加载数据: ./output\cache\processed_data.pt
+2025-05-12 20:42:50,761 - data.dataset - INFO - 从缓存加载了 161 个样本
+2025-05-12 20:42:50,761 - data.dataset - INFO - 成功加载161个RNA样本
+2025-05-12 20:42:50,761 - root - INFO - 创建数据加载器...
+2025-05-12 20:42:50,762 - data.dataset - INFO - 数据集大小: 161
+2025-05-12 20:42:50,762 - data.dataset - INFO - 数据集划分: 训练集=128, 验证集=16, 测试集=17
+2025-05-12 20:42:50,763 - root - INFO - 创建扭转角预测模型...
+2025-05-12 20:42:50,764 - models.torsion_predictor - INFO - 使用提供的RNA-FM模型
+2025-05-12 20:42:50,764 - models.torsion_predictor - INFO - RNA-FM参数已冻结
+2025-05-12 20:42:50,793 - root - INFO - 开始训练，共1个epoch
+2025-05-12 20:43:45,490 - root - INFO - Epoch 1/1, Batch 10/16, Loss: 11.6348
+2025-05-12 20:43:47,217 - root - INFO - Epoch 1/1 训练完成，耗时: 56.42秒, 平均损失: 12.3787
+2025-05-12 20:44:42,267 - root - INFO - Epoch 1/1 验证完成，平均损失: 8.0265
+2025-05-12 20:44:42,285 - models.torsion_predictor - INFO - 模型已保存到 output\20250512_204236\checkpoints\best_model.pth
+2025-05-12 20:44:42,285 - root - INFO - 最佳模型已保存，验证损失: 8.0265
+2025-05-12 20:44:42,285 - root - INFO - 训练完成
+2025-05-12 20:44:42,285 - root - INFO - 加载最佳模型并在测试集上评估...
+2025-05-12 20:44:42,293 - models.torsion_predictor - INFO - 从 output\20250512_204236\checkpoints\best_model.pth 加载了模型
+2025-05-12 20:44:42,294 - models.torsion_predictor - INFO - 加载了扭转角类型: ['alpha', 'beta', 'gamma', 'delta', 'epsilon', 'zeta', 'chi', 'eta', 'theta', "eta'", "theta'", 'v0', 'v1', 'v2', 'v3', 'v4']
+2025-05-12 20:44:42,294 - root - INFO - 测试结果将保存到: output\20250512_204236\test_results
+2025-05-12 20:45:39,190 - utils.evaluation - INFO - alpha      45.48        0.2790      
+2025-05-12 20:45:39,193 - utils.evaluation - INFO - beta       22.36        0.3931      
+2025-05-12 20:45:39,196 - utils.evaluation - INFO - delta      15.56        0.4373      
+2025-05-12 20:45:39,199 - utils.evaluation - INFO - epsilon    28.22        0.3815      
+2025-05-12 20:45:39,201 - utils.evaluation - INFO - gamma      38.09        0.2891      
+2025-05-12 20:45:39,204 - utils.evaluation - INFO - zeta       28.08        0.3539      
+2025-05-12 20:45:39,206 - utils.evaluation - INFO - chi        28.44        0.3794      
+2025-05-12 20:45:39,209 - utils.evaluation - INFO - eta        32.00        0.3560      
+2025-05-12 20:45:39,211 - utils.evaluation - INFO - eta'       23.07        0.3911      
+2025-05-12 20:45:39,214 - utils.evaluation - INFO - theta      31.77        0.3381      
+2025-05-12 20:45:39,217 - utils.evaluation - INFO - theta'     29.23        0.3550      
+2025-05-12 20:45:39,219 - utils.evaluation - INFO - v0         15.30        0.4430      
+2025-05-12 20:45:39,222 - utils.evaluation - INFO - v1         17.99        0.4178      
+2025-05-12 20:45:39,224 - utils.evaluation - INFO - v2         22.30        0.4188      
+2025-05-12 20:45:39,226 - utils.evaluation - INFO - v3         12.42        0.4384      
+2025-05-12 20:45:39,229 - utils.evaluation - INFO - v4         10.12        0.4556      
+2025-05-12 20:45:39,230 - utils.evaluation - INFO - 
+==== 按组评估结果 ====
+2025-05-12 20:45:39,230 - utils.evaluation - INFO - backbone 平均MAE: 29.63°
+2025-05-12 20:45:39,230 - utils.evaluation - INFO - chi 平均MAE: 28.44°
+2025-05-12 20:45:39,230 - utils.evaluation - INFO - pseudo 平均MAE: 29.02°
+2025-05-12 20:45:39,232 - utils.evaluation - INFO - ribose 平均MAE: 15.63°
+2025-05-12 20:45:39,232 - utils.evaluation - INFO - 平均 MAE: 25.03°
+2025-05-12 20:45:39,810 - root - INFO - 评估完成，指标:
+2025-05-12 20:45:39,811 - root - INFO - alpha_mae: 45.4755
+2025-05-12 20:45:39,811 - root - INFO - alpha_corr: 0.2790
+2025-05-12 20:45:39,811 - root - INFO - beta_mae: 22.3576
+2025-05-12 20:45:39,812 - root - INFO - beta_corr: 0.3931
+2025-05-12 20:45:39,812 - root - INFO - delta_mae: 15.5604
+2025-05-12 20:45:39,812 - root - INFO - delta_corr: 0.4373
+2025-05-12 20:45:39,812 - root - INFO - epsilon_mae: 28.2183
+2025-05-12 20:45:39,813 - root - INFO - epsilon_corr: 0.3815
+2025-05-12 20:45:39,813 - root - INFO - gamma_mae: 38.0909
+2025-05-12 20:45:39,813 - root - INFO - gamma_corr: 0.2891
+2025-05-12 20:45:39,813 - root - INFO - zeta_mae: 28.0754
+2025-05-12 20:45:39,813 - root - INFO - zeta_corr: 0.3539
+2025-05-12 20:45:39,813 - root - INFO - chi_mae: 28.4437
+2025-05-12 20:45:39,813 - root - INFO - chi_corr: 0.3794
+2025-05-12 20:45:39,814 - root - INFO - eta_mae: 31.9991
+2025-05-12 20:45:39,814 - root - INFO - eta_corr: 0.3560
+2025-05-12 20:45:39,814 - root - INFO - eta'_mae: 23.0723
+2025-05-12 20:45:39,814 - root - INFO - eta'_corr: 0.3911
+2025-05-12 20:45:39,814 - root - INFO - theta_mae: 31.7724
+2025-05-12 20:45:39,815 - root - INFO - theta_corr: 0.3381
+2025-05-12 20:45:39,815 - root - INFO - theta'_mae: 29.2323
+2025-05-12 20:45:39,815 - root - INFO - theta'_corr: 0.3550
+2025-05-12 20:45:39,816 - root - INFO - v0_mae: 15.2985
+2025-05-12 20:45:39,816 - root - INFO - v0_corr: 0.4430
+2025-05-12 20:45:39,816 - root - INFO - v1_mae: 17.9920
+2025-05-12 20:45:39,816 - root - INFO - v1_corr: 0.4178
+2025-05-12 20:45:39,816 - root - INFO - v2_mae: 22.3049
+2025-05-12 20:45:39,816 - root - INFO - v2_corr: 0.4188
+2025-05-12 20:45:39,816 - root - INFO - v3_mae: 12.4153
+2025-05-12 20:45:39,817 - root - INFO - v3_corr: 0.4384
+2025-05-12 20:45:39,817 - root - INFO - v4_mae: 10.1225
+2025-05-12 20:45:39,817 - root - INFO - v4_corr: 0.4556
+2025-05-12 20:45:39,817 - root - INFO - backbone_avg_mae: 29.6297
+2025-05-12 20:45:39,817 - root - INFO - backbone_avg_corr: 0.3556
+2025-05-12 20:45:39,817 - root - INFO - chi_avg_mae: 28.4437
+2025-05-12 20:45:39,818 - root - INFO - chi_avg_corr: 0.3794
+2025-05-12 20:45:39,818 - root - INFO - pseudo_avg_mae: 29.0190
+2025-05-12 20:45:39,818 - root - INFO - pseudo_avg_corr: 0.3600
+2025-05-12 20:45:39,818 - root - INFO - ribose_avg_mae: 15.6267
+2025-05-12 20:45:39,818 - root - INFO - ribose_avg_corr: 0.4347
+2025-05-12 20:45:39,818 - root - INFO - avg_mae: 25.0270

@@ -1,0 +1,4 @@
+2025-05-12 19:04:54,016 - root - INFO - 使用设备: cuda
+2025-05-12 19:04:54,017 - root - INFO - 加载RNA-FM模型...
+2025-05-12 19:04:55,867 - root - INFO - RNA-FM模型加载完成
+2025-05-12 19:04:55,867 - root - INFO - 加载模型检查点: ./output/20250509_200939/checkpoints/best_model.pth

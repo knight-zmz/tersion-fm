@@ -1,0 +1,218 @@
+2025-05-12 20:15:11,036 - root - INFO - 配置: {'EXPERIMENT_DIR': 'output\\20250512_201501', 'OUTPUT_DIR': './output', 'DATA_DIR': './datasets', 'BATCH_SIZE': 8, 'NUM_EPOCHS': 1, 'LEARNING_RATE': 0.0001, 'DEVICE': 'cuda'}
+2025-05-12 20:15:12,241 - root - INFO - 使用设备: cuda
+2025-05-12 20:15:12,241 - root - INFO - 加载RNA-FM模型...
+2025-05-12 20:15:14,924 - root - INFO - RNA-FM模型加载完成
+2025-05-12 20:15:14,925 - root - INFO - 创建数据集，从目录: ./datasets
+2025-05-12 20:15:14,926 - data.dataset - INFO - 找到1个pkl文件
+2025-05-12 20:15:14,927 - data.dataset - INFO - 找到 1 个数据文件
+2025-05-12 20:15:15,316 - data.dataset - INFO - 检测到训练字典格式: Training_Dict_single.pkl
+2025-05-12 20:15:15,478 - data.adapters - INFO - 跳过多链RNA: 1hmh
+2025-05-12 20:15:15,495 - data.adapters - INFO - 跳过多链RNA: 1mme
+2025-05-12 20:15:15,579 - data.adapters - INFO - 跳过多链RNA: 1biv
+2025-05-12 20:15:15,660 - data.adapters - INFO - 跳过多链RNA: 1etf
+2025-05-12 20:15:15,758 - data.adapters - INFO - 跳过多链RNA: 1zdi
+2025-05-12 20:15:15,865 - data.adapters - INFO - 跳过多链RNA: 1ull
+2025-05-12 20:15:15,866 - data.adapters - INFO - 跳过多链RNA: 1kis
+2025-05-12 20:15:15,866 - data.adapters - INFO - 跳过多链RNA: 1kis
+2025-05-12 20:15:16,077 - data.adapters - INFO - 跳过多链RNA: 1aud
+2025-05-12 20:15:16,108 - data.adapters - INFO - 跳过多链RNA: 1a4t
+2025-05-12 20:15:16,317 - data.adapters - INFO - 跳过多链RNA: 1a1t
+2025-05-12 20:15:16,318 - data.adapters - INFO - 跳过多链RNA: 1a9n
+2025-05-12 20:15:16,408 - data.adapters - INFO - 跳过多链RNA: 7msf
+2025-05-12 20:15:16,408 - data.adapters - INFO - 跳过多链RNA: 5msf
+2025-05-12 20:15:16,454 - data.adapters - INFO - 跳过多链RNA: 1zdk
+2025-05-12 20:15:16,547 - data.adapters - INFO - 跳过多链RNA: 1hvu
+2025-05-12 20:15:16,583 - data.adapters - INFO - 跳过多链RNA: 2bj2
+2025-05-12 20:15:16,583 - data.adapters - INFO - 跳过多链RNA: 2bj2
+2025-05-12 20:15:16,626 - data.adapters - INFO - 跳过多链RNA: 1qfq
+2025-05-12 20:15:16,658 - data.adapters - INFO - 跳过多链RNA: 1bau
+2025-05-12 20:15:16,784 - data.adapters - INFO - 跳过多链RNA: 484d
+2025-05-12 20:15:16,785 - data.adapters - INFO - 跳过多链RNA: 1d6k
+2025-05-12 20:15:16,785 - data.adapters - INFO - 跳过多链RNA: 1eiy
+2025-05-12 20:15:16,807 - data.adapters - INFO - 跳过多链RNA: 1exy
+2025-05-12 20:15:16,868 - data.adapters - INFO - 跳过多链RNA: 1euq
+2025-05-12 20:15:16,900 - data.adapters - INFO - 跳过多链RNA: 1ffk
+2025-05-12 20:15:16,901 - data.adapters - INFO - 跳过多链RNA: 1ekz
+2025-05-12 20:15:16,901 - data.adapters - INFO - 跳过多链RNA: 1f5u
+2025-05-12 20:15:17,043 - data.adapters - INFO - 跳过多链RNA: 1foq
+2025-05-12 20:15:17,043 - data.adapters - INFO - 跳过多链RNA: 1fje
+2025-05-12 20:15:17,123 - data.adapters - INFO - 跳过多链RNA: 1g70
+2025-05-12 20:15:17,123 - data.adapters - INFO - 跳过多链RNA: 1e7k
+2025-05-12 20:15:17,251 - data.adapters - INFO - 跳过多链RNA: 1ibm
+2025-05-12 20:15:17,482 - data.adapters - INFO - 跳过多链RNA: 1k9w
+2025-05-12 20:15:17,705 - data.adapters - INFO - 跳过多链RNA: 1l1c
+2025-05-12 20:15:17,903 - data.adapters - INFO - 跳过多链RNA: 1ls2
+2025-05-12 20:15:18,097 - data.adapters - INFO - 跳过多链RNA: 1n34
+2025-05-12 20:15:18,484 - data.adapters - INFO - 跳过多链RNA: 1nyb
+2025-05-12 20:15:18,516 - data.adapters - INFO - 跳过多链RNA: 1p6v
+2025-05-12 20:15:18,517 - data.adapters - INFO - 跳过多链RNA: 1p6v
+2025-05-12 20:15:18,645 - data.adapters - INFO - 跳过多链RNA: 1qzc
+2025-05-12 20:15:18,728 - data.adapters - INFO - 跳过多链RNA: 1r2w
+2025-05-12 20:15:18,781 - data.adapters - INFO - 跳过多链RNA: 1qzc
+2025-05-12 20:15:19,298 - data.adapters - INFO - 跳过多链RNA: 1ry1
+2025-05-12 20:15:19,457 - data.adapters - INFO - 跳过多链RNA: 1t4l
+2025-05-12 20:15:19,782 - data.adapters - INFO - 跳过多链RNA: 1y1y
+2025-05-12 20:15:20,102 - data.adapters - INFO - 跳过多链RNA: 1u63
+2025-05-12 20:15:20,102 - data.adapters - INFO - 跳过多链RNA: 1zc8
+2025-05-12 20:15:20,102 - data.adapters - INFO - 跳过多链RNA: 1zc8
+2025-05-12 20:15:20,102 - data.adapters - INFO - 跳过多链RNA: 1zc8
+2025-05-12 20:15:20,102 - data.adapters - INFO - 跳过多链RNA: 1zc8
+2025-05-12 20:15:20,103 - data.adapters - INFO - 跳过多链RNA: 1zc8
+2025-05-12 20:15:20,103 - data.adapters - INFO - 跳过多链RNA: 1zc8
+2025-05-12 20:15:20,130 - data.adapters - INFO - 跳过多链RNA: 1x18
+2025-05-12 20:15:20,130 - data.adapters - INFO - 跳过多链RNA: 1x18
+2025-05-12 20:15:20,130 - data.adapters - INFO - 跳过多链RNA: 1x18
+2025-05-12 20:15:20,193 - data.adapters - INFO - 跳过多链RNA: 1zn1
+2025-05-12 20:15:20,260 - data.adapters - INFO - 跳过多链RNA: 1ysh
+2025-05-12 20:15:20,261 - data.adapters - INFO - 跳过多链RNA: 1ysh
+2025-05-12 20:15:20,261 - data.adapters - INFO - 跳过多链RNA: 1ysh
+2025-05-12 20:15:20,302 - data.adapters - INFO - 跳过多链RNA: 2adt
+2025-05-12 20:15:20,302 - data.adapters - INFO - 跳过多链RNA: 1wz2
+2025-05-12 20:15:20,759 - data.adapters - INFO - 跳过多链RNA: 2d19
+2025-05-12 20:15:20,759 - data.adapters - INFO - 跳过多链RNA: 2d1b
+2025-05-12 20:15:20,811 - data.adapters - INFO - 跳过多链RNA: 2b6g
+2025-05-12 20:15:20,812 - data.adapters - INFO - 跳过多链RNA: 2ese
+2025-05-12 20:15:20,812 - data.adapters - INFO - 跳过多链RNA: 2f4x
+2025-05-12 20:15:20,864 - data.adapters - INFO - 跳过多链RNA: 2bq5
+2025-05-12 20:15:20,864 - data.adapters - INFO - 跳过多链RNA: 2bs0
+2025-05-12 20:15:20,865 - data.adapters - INFO - 跳过多链RNA: 2bq5
+2025-05-12 20:15:20,865 - data.adapters - INFO - 跳过多链RNA: 2bs0
+2025-05-12 20:15:20,901 - data.adapters - INFO - 跳过多链RNA: 2b2e
+2025-05-12 20:15:20,901 - data.adapters - INFO - 跳过多链RNA: 2b2e
+2025-05-12 20:15:20,901 - data.adapters - INFO - 跳过多链RNA: 2go5
+2025-05-12 20:15:20,901 - data.adapters - INFO - 跳过多链RNA: 2go5
+2025-05-12 20:15:21,053 - data.adapters - INFO - 跳过多链RNA: 2ake
+2025-05-12 20:15:21,053 - data.adapters - INFO - 跳过多链RNA: 2dr2
+2025-05-12 20:15:21,053 - data.adapters - INFO - 跳过多链RNA: 2agn
+2025-05-12 20:15:21,053 - data.adapters - INFO - 跳过多链RNA: 2agn
+2025-05-12 20:15:21,054 - data.adapters - INFO - 跳过多链RNA: 2izn
+2025-05-12 20:15:21,054 - data.adapters - INFO - 跳过多链RNA: 2iz8
+2025-05-12 20:15:21,054 - data.adapters - INFO - 跳过多链RNA: 2iz8
+2025-05-12 20:15:21,054 - data.adapters - INFO - 跳过多链RNA: 2hgh
+2025-05-12 20:15:21,106 - data.adapters - INFO - 跳过多链RNA: 2der
+2025-05-12 20:15:21,107 - data.adapters - INFO - 跳过多链RNA: 2det
+2025-05-12 20:15:21,219 - data.adapters - INFO - 跳过多链RNA: 1zbh
+2025-05-12 20:15:21,297 - data.adapters - INFO - 跳过多链RNA: 2iy3
+2025-05-12 20:15:21,298 - data.adapters - INFO - 跳过多链RNA: 2j28
+2025-05-12 20:15:21,298 - data.adapters - INFO - 跳过多链RNA: 2j37
+2025-05-12 20:15:21,298 - data.adapters - INFO - 跳过多链RNA: 2j28
+2025-05-12 20:15:21,298 - data.adapters - INFO - 跳过多链RNA: 2noq
+2025-05-12 20:15:21,298 - data.adapters - INFO - 跳过多链RNA: 2noq
+2025-05-12 20:15:21,299 - data.adapters - INFO - 跳过多链RNA: 2noq
+2025-05-12 20:15:21,354 - data.adapters - INFO - 跳过多链RNA: 2ihx
+2025-05-12 20:15:21,354 - data.adapters - INFO - 跳过多链RNA: 2ob7
+2025-05-12 20:15:21,354 - data.adapters - INFO - 跳过多链RNA: 2fy1
+2025-05-12 20:15:21,385 - data.adapters - INFO - 跳过多链RNA: 2il9
+2025-05-12 20:15:21,385 - data.adapters - INFO - 跳过多链RNA: 2il9
+2025-05-12 20:15:21,420 - data.adapters - INFO - 跳过多链RNA: 2du5
+2025-05-12 20:15:21,421 - data.adapters - INFO - 跳过多链RNA: 2du4
+2025-05-12 20:15:21,421 - data.adapters - INFO - 跳过多链RNA: 2du6
+2025-05-12 20:15:21,555 - data.adapters - INFO - 跳过多链RNA: 2pcw
+2025-05-12 20:15:21,555 - data.adapters - INFO - 跳过多链RNA: 2nr0
+2025-05-12 20:15:21,555 - data.adapters - INFO - 跳过多链RNA: 2nr0
+2025-05-12 20:15:21,555 - data.adapters - INFO - 跳过多链RNA: 2nr0
+2025-05-12 20:15:21,556 - data.adapters - INFO - 跳过多链RNA: 2nr0
+2025-05-12 20:15:21,568 - data.adapters - INFO - 跳过多链RNA: 2izm
+2025-05-12 20:15:21,596 - data.adapters - INFO - 跳过多链RNA: 2jpp
+2025-05-12 20:15:21,745 - data.adapters - INFO - 跳过多链RNA: 2om3
+2025-05-12 20:15:21,745 - data.adapters - INFO - 跳过多链RNA: 2pn9
+2025-05-12 20:15:21,778 - data.adapters - INFO - 跳过多链RNA: 2r93
+2025-05-12 20:15:21,826 - data.adapters - INFO - 跳过多链RNA: 2om7
+2025-05-12 20:15:21,826 - data.adapters - INFO - 跳过多链RNA: 2om7
+2025-05-12 20:15:21,827 - data.adapters - INFO - 跳过多链RNA: 2om7
+2025-05-12 20:15:21,827 - data.adapters - INFO - 跳过多链RNA: 2om7
+2025-05-12 20:15:21,827 - data.adapters - INFO - 跳过多链RNA: 2om7
+2025-05-12 20:15:21,827 - data.adapters - INFO - 跳过多链RNA: 2om7
+2025-05-12 20:15:21,828 - data.adapters - INFO - 跳过多链RNA: 2om7
+2025-05-12 20:15:21,857 - data.adapters - INFO - 跳过多链RNA: 2r1g
+2025-05-12 20:15:21,857 - data.adapters - INFO - 跳过多链RNA: 2r1g
+2025-05-12 20:15:21,858 - data.adapters - INFO - 跳过多链RNA: 2r1g
+2025-05-12 20:15:21,858 - data.adapters - INFO - 跳过多链RNA: 2r1g
+2025-05-12 20:15:21,858 - data.adapters - INFO - 跳过多链RNA: 2r1g
+2025-05-12 20:15:21,858 - data.adapters - INFO - 跳过多链RNA: 2r1g
+2025-05-12 20:15:21,891 - data.adapters - INFO - 适配转换: 原始数据 285 项 -> 适配后 161 项
+2025-05-12 20:15:21,891 - data.dataset - INFO - 适配处理成功: 161 个样本
+2025-05-12 20:15:21,892 - data.dataset - INFO - 数据加载完成: 总计 161 个样本
+2025-05-12 20:15:22,002 - data.dataset - INFO - 数据已缓存到: ./output\cache\processed_data.pt
+2025-05-12 20:15:22,002 - data.dataset - INFO - 成功加载161个RNA样本
+2025-05-12 20:15:22,002 - root - INFO - 创建数据加载器...
+2025-05-12 20:15:22,003 - data.dataset - INFO - 数据集大小: 161
+2025-05-12 20:15:22,003 - data.dataset - INFO - 数据集划分: 训练集=128, 验证集=16, 测试集=17
+2025-05-12 20:15:22,004 - root - INFO - 创建扭转角预测模型...
+2025-05-12 20:15:22,004 - models.torsion_predictor - INFO - 使用提供的RNA-FM模型
+2025-05-12 20:15:22,005 - models.torsion_predictor - INFO - RNA-FM参数已冻结
+2025-05-12 20:15:22,087 - root - INFO - 开始训练，共1个epoch
+2025-05-12 20:16:18,226 - root - INFO - Epoch 1/1, Batch 10/16, Loss: 11.6348
+2025-05-12 20:16:19,941 - root - INFO - Epoch 1/1 训练完成，耗时: 57.85秒, 平均损失: 12.3787
+2025-05-12 20:17:15,180 - root - INFO - Epoch 1/1 验证完成，平均损失: 8.0265
+2025-05-12 20:17:15,188 - models.torsion_predictor - INFO - 模型已保存到 output\20250512_201501\checkpoints\best_model.pth
+2025-05-12 20:17:15,189 - root - INFO - 最佳模型已保存，验证损失: 8.0265
+2025-05-12 20:17:15,189 - root - INFO - 训练完成
+2025-05-12 20:17:15,189 - root - INFO - 加载最佳模型并在测试集上评估...
+2025-05-12 20:17:15,198 - models.torsion_predictor - INFO - 从 output\20250512_201501\checkpoints\best_model.pth 加载了模型
+2025-05-12 20:17:15,199 - models.torsion_predictor - INFO - 加载了扭转角类型: ['alpha', 'beta', 'gamma', 'delta', 'epsilon', 'zeta', 'chi', 'eta', 'theta', "eta'", "theta'", 'v0', 'v1', 'v2', 'v3', 'v4']
+2025-05-12 20:17:15,199 - root - INFO - 测试结果将保存到: output\20250512_201501\test_results
+2025-05-12 20:18:10,048 - utils.evaluation - INFO - alpha - MAE: 45.47550919476677, 循环相关性: 0.2789715589845882
+2025-05-12 20:18:10,050 - utils.evaluation - INFO - beta - MAE: 22.357574266545914, 循环相关性: 0.39305314947577086
+2025-05-12 20:18:10,053 - utils.evaluation - INFO - gamma - MAE: 38.09094485114603, 循环相关性: 0.28911157040035024
+2025-05-12 20:18:10,058 - utils.evaluation - INFO - delta - MAE: 15.560413697186638, 循环相关性: 0.4372599703424117
+2025-05-12 20:18:10,061 - utils.evaluation - INFO - epsilon - MAE: 28.218279670266543, 循环相关性: 0.3815343388739754
+2025-05-12 20:18:10,064 - utils.evaluation - INFO - zeta - MAE: 28.075405233046588, 循环相关性: 0.3539481934379129
+2025-05-12 20:18:10,067 - utils.evaluation - INFO - chi - MAE: 28.443735122680664, 循环相关性: 0.37936901695588054
+2025-05-12 20:18:10,069 - utils.evaluation - INFO - eta - MAE: 31.999090306899127, 循环相关性: 0.35598481928600983
+2025-05-12 20:18:10,072 - utils.evaluation - INFO - theta - MAE: 31.772423575906192, 循环相关性: 0.3380759314579122
+2025-05-12 20:18:10,074 - utils.evaluation - INFO - eta' - MAE: 23.072322733262006, 循环相关性: 0.3911274005385006
+2025-05-12 20:18:10,077 - utils.evaluation - INFO - theta' - MAE: 29.232321907492246, 循环相关性: 0.35498711992712584
+2025-05-12 20:18:10,080 - utils.evaluation - INFO - v0 - MAE: 15.298495797549977, 循环相关性: 0.44297002343570485
+2025-05-12 20:18:10,082 - utils.evaluation - INFO - v1 - MAE: 17.992044112261603, 循环相关性: 0.4178430280264686
+2025-05-12 20:18:10,085 - utils.evaluation - INFO - v2 - MAE: 22.30492939668543, 循环相关性: 0.4188343602068284
+2025-05-12 20:18:10,087 - utils.evaluation - INFO - v3 - MAE: 12.415347548092113, 循环相关性: 0.43843256375368905
+2025-05-12 20:18:10,090 - utils.evaluation - INFO - v4 - MAE: 10.12252919814166, 循环相关性: 0.45561147437376137
+2025-05-12 20:18:10,090 - utils.evaluation - INFO - ==== 按组评估结果 ====
+2025-05-12 20:18:10,090 - utils.evaluation - INFO - backbone 平均MAE: 29.63°
+2025-05-12 20:18:10,091 - utils.evaluation - INFO - chi 平均MAE: 28.44°
+2025-05-12 20:18:10,091 - utils.evaluation - INFO - pseudo 平均MAE: 29.02°
+2025-05-12 20:18:10,091 - utils.evaluation - INFO - ribose 平均MAE: 15.63°
+2025-05-12 20:18:10,091 - utils.evaluation - INFO - 平均 MAE: 25.03°
+2025-05-12 20:18:10,112 - root - INFO - 评估完成，指标:
+2025-05-12 20:18:10,112 - root - INFO - alpha_mae: 45.4755
+2025-05-12 20:18:10,112 - root - INFO - alpha_corr: 0.2790
+2025-05-12 20:18:10,112 - root - INFO - beta_mae: 22.3576
+2025-05-12 20:18:10,112 - root - INFO - beta_corr: 0.3931
+2025-05-12 20:18:10,112 - root - INFO - gamma_mae: 38.0909
+2025-05-12 20:18:10,112 - root - INFO - gamma_corr: 0.2891
+2025-05-12 20:18:10,112 - root - INFO - delta_mae: 15.5604
+2025-05-12 20:18:10,113 - root - INFO - delta_corr: 0.4373
+2025-05-12 20:18:10,113 - root - INFO - epsilon_mae: 28.2183
+2025-05-12 20:18:10,113 - root - INFO - epsilon_corr: 0.3815
+2025-05-12 20:18:10,113 - root - INFO - zeta_mae: 28.0754
+2025-05-12 20:18:10,113 - root - INFO - zeta_corr: 0.3539
+2025-05-12 20:18:10,113 - root - INFO - chi_mae: 28.4437
+2025-05-12 20:18:10,113 - root - INFO - chi_corr: 0.3794
+2025-05-12 20:18:10,113 - root - INFO - eta_mae: 31.9991
+2025-05-12 20:18:10,113 - root - INFO - eta_corr: 0.3560
+2025-05-12 20:18:10,113 - root - INFO - theta_mae: 31.7724
+2025-05-12 20:18:10,113 - root - INFO - theta_corr: 0.3381
+2025-05-12 20:18:10,113 - root - INFO - eta'_mae: 23.0723
+2025-05-12 20:18:10,114 - root - INFO - eta'_corr: 0.3911
+2025-05-12 20:18:10,114 - root - INFO - theta'_mae: 29.2323
+2025-05-12 20:18:10,114 - root - INFO - theta'_corr: 0.3550
+2025-05-12 20:18:10,114 - root - INFO - v0_mae: 15.2985
+2025-05-12 20:18:10,114 - root - INFO - v0_corr: 0.4430
+2025-05-12 20:18:10,114 - root - INFO - v1_mae: 17.9920
+2025-05-12 20:18:10,114 - root - INFO - v1_corr: 0.4178
+2025-05-12 20:18:10,114 - root - INFO - v2_mae: 22.3049
+2025-05-12 20:18:10,114 - root - INFO - v2_corr: 0.4188
+2025-05-12 20:18:10,114 - root - INFO - v3_mae: 12.4153
+2025-05-12 20:18:10,114 - root - INFO - v3_corr: 0.4384
+2025-05-12 20:18:10,114 - root - INFO - v4_mae: 10.1225
+2025-05-12 20:18:10,115 - root - INFO - v4_corr: 0.4556
+2025-05-12 20:18:10,115 - root - INFO - backbone_avg_mae: 29.6297
+2025-05-12 20:18:10,115 - root - INFO - backbone_avg_corr: 0.3556
+2025-05-12 20:18:10,115 - root - INFO - chi_avg_mae: 28.4437
+2025-05-12 20:18:10,115 - root - INFO - chi_avg_corr: 0.3794
+2025-05-12 20:18:10,115 - root - INFO - pseudo_avg_mae: 29.0190
+2025-05-12 20:18:10,115 - root - INFO - pseudo_avg_corr: 0.3600
+2025-05-12 20:18:10,115 - root - INFO - ribose_avg_mae: 15.6267
+2025-05-12 20:18:10,115 - root - INFO - ribose_avg_corr: 0.4347
+2025-05-12 20:18:10,115 - root - INFO - avg_mae: 25.0270

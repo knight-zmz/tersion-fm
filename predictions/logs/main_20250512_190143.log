@@ -1,0 +1,6 @@
+2025-05-12 19:01:44,415 - root - INFO - 使用设备: cuda
+2025-05-12 19:01:44,416 - root - INFO - 加载RNA-FM模型...
+2025-05-12 19:01:46,227 - root - INFO - RNA-FM模型加载完成
+2025-05-12 19:01:46,228 - root - INFO - 加载模型检查点: ./output/20250509_200939/checkpoints/best_model.pth
+2025-05-12 19:01:46,232 - models.torsion_predictor - INFO - 使用提供的RNA-FM模型
+2025-05-12 19:01:46,232 - models.torsion_predictor - INFO - RNA-FM参数已冻结

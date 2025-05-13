@@ -1,0 +1,9 @@
+2025-05-09 21:45:09,992 - root - INFO - 使用设备: cuda
+2025-05-09 21:45:09,993 - root - INFO - 加载RNA-FM模型...
+2025-05-09 21:45:11,438 - root - INFO - RNA-FM模型加载完成
+2025-05-09 21:45:11,439 - root - INFO - 加载模型检查点: ./output/20250509_200939/checkpoints/best_model.pth
+2025-05-09 21:45:11,446 - models.torsion_predictor - INFO - 使用提供的RNA-FM模型
+2025-05-09 21:45:11,447 - models.torsion_predictor - INFO - RNA-FM参数已冻结
+2025-05-09 21:45:11,455 - root - INFO - 处理输入文件: ./datasets/Test_Dict_single.pkl
+2025-05-09 21:45:11,455 - data.preprocessing - ERROR - 加载文件失败 ./datasets/Test_Dict_single.pkl: [Errno 2] No such file or directory: './datasets/Test_Dict_single.pkl'
+2025-05-09 21:45:11,455 - root - ERROR - 无法处理文件: ./datasets/Test_Dict_single.pkl

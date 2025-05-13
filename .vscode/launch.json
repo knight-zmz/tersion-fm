@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "训练模式",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "train",
+                "--data_dir", "./datasets",
+                "--output_dir", "./output",
+                "--batch_size", "8", 
+                "--num_epochs", "1"
+            ]
+        },
+        {
+            "name": "预测模式",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "predict",
+                "--input_file", "./datasets/sequence/sequence_only.pkl",
+                "--model_path", "./output/20250512_201501/checkpoints/best_model.pth",
+                "--output_dir", "./predictions"
+            ]
+        }
+    ]
+}
